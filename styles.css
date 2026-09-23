@@ -1,0 +1,49 @@
+h4{
+    color: orange;
+}
+p,button{
+    background-color: aqua;
+}
+
+div{
+    background-color: yellow;
+}
+.contentDiv{
+    margin: 20%;
+}
+#imagesDiv{
+    padding: 10%;
+}
+*{
+    background-color: brown;
+}
+
+button[type="submit"]{
+    background-color: green;
+    color: white;
+    border-radius: 25%;
+    padding: 5%;
+}
+
+#buttonsDiv > button{
+    background-color: violet;
+}
+
+#resetBtn{
+    background-color: slateblue;
+}
+
+#headingDiv, #headingDiv > *{
+    background-color: darksalmon;
+    color: white;
+    
+}
+
+#headingDiv{
+    border: 5px solid black;
+    border-style: dotted;
+    margin: 10%;
+    padding: 10%;
+    height: 40vh;
+    width: 30vw;
+}

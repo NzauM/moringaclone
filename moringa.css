@@ -1,0 +1,64 @@
+#orangeDiv{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* justify-content:center; */
+    /* display: grid;
+    grid-template-columns: 1fr 2fr 1fr; */
+}
+#logoImage{
+    width: 10%;
+}
+
+#headerDiv{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(250, 81, 4, 0.4) 65%);
+    height: 90vh;
+}
+
+#buttonsDiv{
+    margin-top: 2%;
+}
+
+body{
+    font-family: Gotham Rounded;
+    font-size: x-large;
+}
+
+
+.google-sans-headings {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+}
+
+
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+#heroDiv{
+    padding-top: 10%;
+    width: 60%;
+    text-align: center;
+
+}
+
+#imagesDiv{
+    display: flex;
+    justify-content: space-around
+}
+
+nav{
+    border-bottom: 1px solid black;
+    padding: 3%;
+    width: 100vw;
+}
